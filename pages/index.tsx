@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 import { HomeHeader } from '@/components/HomeHeader'
 import { StackItems } from '@/components/StackItems'
 import { OtherTechnologies } from '@/components/OtherTechnologies'
+import { Projects } from '@/components/Projects'
 
 const poppins = Poppins({ weight: ['300', '400', '500', '600'], subsets: ['latin'] })
 
@@ -32,6 +33,9 @@ export default function Home() {
         <section>
           <StackItems />
           <OtherTechnologies />
+        </section>
+        <section>
+          <Projects />
         </section>
       </main>
     </>
