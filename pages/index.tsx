@@ -1,7 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Poppins } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/Home.module.scss'
 import { HomeHeader } from '@/components/HomeHeader'
 import { StackItems } from '@/components/StackItems'
 import { OtherTechnologies } from '@/components/OtherTechnologies'
@@ -19,19 +18,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${poppins.className}`}>
-        <Image
-          src="/AndreasSoegaardRound.png"
-          alt="Andreas Søgaard Pedersen"
-          className={styles.andreasImage}
-          width={120}
-          height={120}
-          priority
-        />
         <header>
           <HomeHeader />
         </header>
         <section>
           <StackItems />
+        </section>
+        <section>
           <OtherTechnologies />
         </section>
         <section>

@@ -63,9 +63,9 @@ export const StackItems = () => {
   return (
     <>
       <h2>Min primære stack</h2>
-      <div className="flex flex-wrap -mx-3 mb-8">
+      <div className="flex flex-wrap -mx-3">
         {stackItems.map((item) => (
-          <div key={item.id} className="w-6/12 px-3 mb-3">
+          <div key={item.id} className="w-full lg:w-6/12 px-3 mb-3">
             <StackItem
               title={item.title}
               logo={item.logo}

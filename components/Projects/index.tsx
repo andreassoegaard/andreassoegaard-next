@@ -1,4 +1,4 @@
-import styles from './Projects.module.css'
+import styles from './Projects.module.scss'
 
 export const Projects = () => {
   const projects = [
@@ -13,6 +13,9 @@ export const Projects = () => {
     },
     {
       title: 'Custom ES6-moduler der kan importeres på tværs af projekter'
+    },
+    {
+      title: 'Ordresystem til vindmøllebranchen'
     }
   ]
   return (

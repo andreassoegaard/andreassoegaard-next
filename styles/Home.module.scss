@@ -1,12 +1,18 @@
 .main {
-  @apply max-w-3xl mx-auto my-12 text-lg;
+  @apply max-w-3xl mx-auto my-12 text-lg px-4 lg:px-0;
 }
 
 .main h1 {
-  font-size: 50px;
-  line-height: 60px;
+  font-size: 30px;
+  line-height: 40px;
   font-weight: 600;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
+
+  @screen lg {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 80px;
+  }
 }
 
 .andreasImage {

@@ -1,7 +1,10 @@
-import styles from './OtherTechnologies.module.css'
+import styles from './OtherTechnologies.module.scss'
 
 export const OtherTechnologies = () => {
   const technologies = [
+    {
+      title: 'VS Code'
+    },
     {
       title: 'NPM/Yarn'
     },
