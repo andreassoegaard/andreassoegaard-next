@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import Image from 'next/image'
-import styles from '@/components/StackItem/StackItem.module.css'
+import styles from '@/components/StackItem/StackItem.module.scss'
 
 interface Props {
   title: string,
@@ -16,7 +16,7 @@ export const StackItem = (props: Props) => {
 
   return (
     <>
-      <div className={styles.stackItem} style={{ borderColor: props.lineHex }}>
+      <div className={styles.stackItem} style={{ '--as-border-color': props.lineHex } as React.CSSProperties}>
         <div className={styles['stackItem-title']}>
           <Image
             src={props.logo}
@@ -27,7 +27,7 @@ export const StackItem = (props: Props) => {
           />
           {props.title}
         </div>
-        <div className="text-gray-400">
+        <div className={styles['stackItem-since']}>
           {age}+ års erfaring
         </div>
       </div>
