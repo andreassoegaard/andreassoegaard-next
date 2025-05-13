@@ -4,7 +4,7 @@ import styles from '@/styles/Home.module.scss'
 export const HomeHeader = () => {
   return (
     <>
-      <div className="flex items-center mb-12">
+      <div className="flex flex-col md:flex-row md:items-center md:mb-12 mb-8">
         <Image
           src="/AndreasSoegaardRound.png"
           alt="Andreas Søgaard Pedersen"
@@ -12,7 +12,7 @@ export const HomeHeader = () => {
           height={100}
           priority
         />
-        <div className="ml-8 text-gray-400">
+        <div className="mt-4 md:ml-8 md:mt-0 text-gray-400">
           <a href="tel:+4528403602" className="flex items-center">
             <Image
               src="/phone-solid.svg"
