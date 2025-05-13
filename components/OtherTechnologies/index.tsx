@@ -9,12 +9,6 @@ export const OtherTechnologies = () => {
       title: 'NPM/Yarn'
     },
     {
-      title: 'React.js'
-    },
-    {
-      title: 'Next.js'
-    },
-    {
       title: 'Node.js'
     },
     {

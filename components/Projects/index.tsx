@@ -3,20 +3,23 @@ import styles from './Projects.module.scss'
 export const Projects = () => {
   const projects = [
     {
+      title: "Headless hjemmeside til Jyskebank.dk med Next.js og Umbraco"
+    },
+    {
       title: 'Komplet frontend til sagshåndteringssystem til bedemænd'
     },
     {
       title: 'Interaktiv drag-and-drop gravstensdesigner'
     },
     {
-      title: 'Døds- og takkeannonce-generator med live-preview'
+      title: 'Headless hjemmesidesystem til bedemænd med Nuxt.js og WordPress REST API'
     },
     {
-      title: 'Custom ES6-moduler der kan importeres på tværs af projekter'
+      title: 'Døds- og takkeannonce-generator med live-preview i Vue.js'
     },
     {
-      title: 'Ordresystem til vindmøllebranchen'
-    }
+      title: 'Custom web components der kan importeres på tværs af projekter og frameworks'
+    },
   ]
   return (
     <>

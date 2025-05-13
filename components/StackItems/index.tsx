@@ -17,6 +17,20 @@ export const StackItems = () => {
       since: new Date('01/01/2022')
     },
     {
+      id: 5,
+      logo: '/next-js.svg',
+      title: 'Next.js',
+      lineHex: '#5d5d5d',
+      since: new Date('01/01/2022')
+    },
+    {
+      id: 6,
+      logo: '/React.svg',
+      title: 'React.js',
+      lineHex: '#00d8fe',
+      since: new Date('01/01/2022')
+    },
+    {
       id: 3,
       logo: '/NuxtLogo.svg',
       title: 'Nuxt (2 & 3)',
@@ -30,33 +44,48 @@ export const StackItems = () => {
       lineHex: '#42B883',
       since: new Date('01/01/2019')
     },
+    
     {
-      id: 5,
+      id: 7,
       logo: '/PiniaLogo.svg',
       title: 'Pinia',
       lineHex: '#ecb732',
       since: new Date('01/01/2022')
     },
     {
-      id: 6,
+      id: 8,
       logo: '/VueLogo.svg',
       title: 'Vuex',
       lineHex: '#42B883',
       since: new Date('01/01/2019')
     },
     {
-      id: 7,
+      id: 9,
       logo: '/TailwindLogo.svg',
       title: 'TailwindCSS',
       lineHex: '#07B6D5',
       since: new Date('01/01/2021')
     },
     {
-      id: 8,
+      id: 10,
       logo: '/BootstrapLogo.svg',
       title: 'Bootstrap',
       lineHex: '#7A12F5',
       since: new Date('01/01/2017')
+    },
+    {
+      id: 11,
+      logo: '/wordpress-icon.svg',
+      title: 'WordPress',
+      lineHex: '#21759B',
+      since: new Date('01/01/2012')
+    },
+    {
+      id: 12,
+      logo: '/UmbracoLogo.svg',
+      title: 'Umbraco',
+      lineHex: '#3948ad',
+      since: new Date('01/01/2023')
     }
   ]
 
